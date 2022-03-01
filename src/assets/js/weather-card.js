@@ -71,7 +71,7 @@ $(document).ready(function() {
           "<i class='fas fa-cloud' style='color: #44c3de;'></i>"
         );
       }
-  
+      
       var minutes =
         date.getMinutes() < 11 ? "0" + date.getMinutes() : date.getMinutes();
       var date =
@@ -91,5 +91,6 @@ $(document).ready(function() {
       $(".location").css("color", font_color);
       $(".temp").css("color", font_color);
     }
+
   });
   
