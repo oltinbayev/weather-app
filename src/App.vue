@@ -8,6 +8,7 @@
     <div class="weather-container"><i class="weather-icon" data-feather="sun"></i>
       <h1 class="weather-temp">{{temperature}}°C</h1>
       <h3 class="weather-desc">{{description}}</h3>
+      <h3>test</h3>
     </div>
   </div>
   <div class="info-side">
